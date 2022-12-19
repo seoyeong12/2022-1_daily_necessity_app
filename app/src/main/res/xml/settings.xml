@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference
+        app:key="cycle"
+        app:title="주기 자동계산"/>
+    <PreferenceCategory
+        app:key="alarm"
+        app:title="알림 설정">
+        <SwitchPreferenceCompat
+            app:key="alarm_setting"
+            app:title="알림 설정"/>
+        <SwitchPreferenceCompat
+            app:key="alarm_sound"
+            app:title="소리 설정"/>
+        <ListPreference
+            app:key="alarm_cycle"
+            app:title="알림 주기"
+            android:entries="@array/alarm_cycle"
+            app:entryValues="@array/alarm_cycle_value"/>
+    </PreferenceCategory>
+</PreferenceScreen>

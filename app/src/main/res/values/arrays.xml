@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_cycle">
+        <item>10개 남았을 때</item>
+        <item>5개 남았을 때</item>
+        <item>1개 남았을 때</item>
+        <item>다 떨어졌을 때</item>
+    </string-array>
+    <string-array name="alarm_cycle_value">
+        <item>10</item>
+        <item>5</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="category">
+        <item>청소용품</item>
+        <item>위생용품</item>
+        <item>주방용품</item>
+        <item>세탁용품</item>
+        <item>욕실용품</item>
+        <item>화장품</item>
+        <item>반려동물</item>
+        <item>식품</item>
+        <item>기타</item>
+    </string-array>
+</resources>
